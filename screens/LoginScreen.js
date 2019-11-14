@@ -127,7 +127,7 @@ export default class LoginScreen extends React.Component {
           <TapGestureHandler onHandlerStateChange={this._onStateChange}>
             <Animated.View style={{...styles.button, backgroundColor: '#2E71DC', opacity: this.buttonOpacity, transform:[{translateY: this.buttonY}]}}>
               <Text style={{fontSize: 20, fontWeight: 'bold', color: 'white'}}>
-                SIGN IN WITH Connected2.me
+                SIGN UP
               </Text>
             </Animated.View>
           </TapGestureHandler>
