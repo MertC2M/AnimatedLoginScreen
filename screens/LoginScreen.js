@@ -110,7 +110,7 @@ export default class LoginScreen extends React.Component {
               <Circle r={height+50} cx={width / 2}/>
             </ClipPath>
             <Image
-                href={require('../assets/bg.jpg')}
+                href={require('../assets/12.jpg')}
                 width={width}
                 height={height+50}
                 preserveAspectRatio = 'xMidYMid slice'
@@ -120,7 +120,7 @@ export default class LoginScreen extends React.Component {
         </Animated.View>
         <View style={{height: height / 3}}>
           <TapGestureHandler onHandlerStateChange={this._onStateChange}>
-            <Animated.View style={{...styles.button, opacity: this.buttonOpacity, transform: [{translateY: this.buttonY}]}}>
+            <Animated.View style={{...styles.button, marginTop: height / 8, opacity: this.buttonOpacity, transform: [{translateY: this.buttonY}]}}>
               <Text style={{fontSize: 20, fontWeight: 'bold'}}>SIGN IN</Text>
             </Animated.View>
           </TapGestureHandler>
@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
   },
   button: {
     backgroundColor: 'white',
-    height: 70,
+    height: 50,
     marginHorizontal: 20,
     borderRadius: 35,
     alignItems: 'center',
