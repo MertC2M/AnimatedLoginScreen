@@ -48,7 +48,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <View style={{flex: 1, backgroundColor: 'blue'}}>{this.renderPage()}</View>
+      <View style={{flex: 1, backgroundColor: 'red'}}>{this.renderPage()}</View>
     );
   }
 }
