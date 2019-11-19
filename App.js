@@ -44,7 +44,7 @@ export default class App extends React.Component {
 
   test = setTimeout(() => {
     this.setState({currentPage: 'LoginScreen'});
-  }, 400);
+  }, 450);
 
   render() {
     return (
